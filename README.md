@@ -13,10 +13,6 @@ This project demonstrates the use of semantic HTML, CSS styling, and vanilla Jav
 ## 💻 GitHub Repository
 👉 [GitHub Repo Link](https://github.com/justinaenayio-idu/profile-card-stage0)
 
-To clone the repository locally:
-```bash
-git clone https://github.com/justinaenayio-idu/profile-card-stage0.git
-
 
 
 ## 🌟 Features
@@ -46,10 +42,6 @@ See [TESTING.md](./TESTING.md) file for detailed notes on how this project was t
 - Browser compatibility
 
 
-## 🚀 Deployment
-To view the live project:
-1. Go to the GitHub repository → **Settings → Pages**
-2. Under “Branch,” select `main` → `/ (root)`
-3. Click “Save”
-4. Wait a minute, then visit:  
-   👉 https://justinaenayio-idu.github.io/profile-card-stage0/
+To clone the repository locally:
+```bash
+git clone https://github.com/justinaenayio-idu/profile-card-stage0.git
