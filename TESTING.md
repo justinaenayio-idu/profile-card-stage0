@@ -1,32 +1,76 @@
-## 🧪 TESTING.md
 
-### Automated Testing
-This project includes `data-testid` attributes for all required elements to allow automated testing.
+---
 
-**Test IDs include:**
-- `test-profile-card`
-- `test-user-name`
-- `test-user-bio`
-- `test-user-time`
-- `test-user-avatar`
-- `test-user-social-links`
-- `test-user-hobbies`
-- `test-user-dislikes`
+## 🧠 `TESTING.md`
 
-These attributes make it possible for automated tools to query and validate the component structure and data.
+```markdown
+# TESTING.md — Profile Card Stage 0
 
-### Manual Testing
-To test manually:
-1. Open the live project link in a browser.
-2. Inspect elements (Right-click → Inspect → Elements tab).
-3. Search (`Ctrl + F`) for each `data-testid` to confirm they exist.
-4. Verify:
-   - The current time updates correctly (in milliseconds).
-   - Avatar image displays properly with an alt attribute.
-   - All social links open in a new tab and are keyboard-accessible.
-   - The layout remains responsive on mobile, tablet, and desktop.
+This file documents how the **Profile Card Component** was tested to ensure functionality, responsiveness, and accessibility.
 
-### Accessibility
-- Semantic HTML tags were used (`<article>`, `<header>`, `<figure>`, `<nav>`, `<section>`).
-- Links and buttons are fully keyboard-focusable.
-- Alt text added for images.
+---
+
+## ✅ Functional Tests
+
+| Feature            | Test Performed                                                      | Result |
+|----------|----------------|--------|
+| **User name**      | Verified it displays correctly in the header (`data-testid="test-user-name"`) 
+| ✅ Passed |
+| **User bio**       | Confirmed the bio text is visible (`data-testid="test-user-bio"`)       
+| ✅ Passed |
+| **User avatar**    | Image loads correctly with proper alt text (`data-testid="test-user-avatar"`) 
+| ✅ Passed |
+| **Current time**   | Time updates dynamically every second (`data-testid="test-user-time"`) 
+| ✅ Passed |
+| **Social links**   | Each link opens in a new tab and is accessible (`data-testid="test-user-social-*`) 
+| ✅ Passed |
+
+---
+
+## 📱 Responsiveness Tests
+
+- Tested on screen sizes: **Mobile (375px)**, **Tablet (768px)**, and **Desktop (1440px)**.  
+- Layout adjusts gracefully — the avatar and content stack on smaller screens.  
+- No horizontal scrolling or overflow detected.  
+✅ **All responsive tests passed.**
+
+---
+
+## ♿ Accessibility Tests
+
+- Used semantic HTML5 elements (`<article>`, `<header>`, `<section>`, `<nav>`, `<figure>`, `<figcaption>`).  
+- Verified that text contrast meets WCAG standards.  
+- All interactive elements (links) are reachable via keyboard navigation.  
+✅ **Accessibility confirmed.**
+
+---
+
+## 🌍 Browser Compatibility
+
+| Browser | Tested | Result |
+|----------|---------|--------|
+| Chrome | ✅ | Works perfectly |
+| Edge | ✅ | Works perfectly |
+| Firefox | ✅ | Works perfectly |
+| Safari | ⚪ | Not tested (no macOS device) |
+
+---
+
+## 🧩 Validation
+
+- **HTML validated** via [W3C Validator](https://validator.w3.org/).  
+- **CSS validated** via [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).  
+- **JavaScript** passed ESLint basic checks — no console errors or warnings.
+
+---
+
+## 🗒️ Notes
+- Project follows semantic and accessible web design standards.  
+- The time feature uses `Date.now()` and updates every second.  
+- The avatar image (`onyene-justina-enayi.jpg`) is included locally.  
+
+---
+
+**Final Verdict:**  
+✅ All functional, responsive, and accessibility checks passed.  
+🚀 Ready for deployment and submission.

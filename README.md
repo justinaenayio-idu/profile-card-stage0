@@ -1,17 +1,22 @@
-# Profile Card — Stage 0 (HNG 13)
+# Profile Card — Stage 0 (Frontend Wizards, HNG 13)
 
-A responsive and accessible profile card built for the **Frontend Wizards Stage 0 task (HNG 13)**.  
-It displays a user's profile picture, bio, hobbies, dislikes, and social links, with an automatically updating timestamp.
+A responsive **Profile Card Component** built as part of the **HNG 13 Frontend Wizards Stage 0** task.  
+This project demonstrates the use of semantic HTML, CSS styling, and vanilla JavaScript for dynamic content updates.
 
+---
 
 ## 🌐 Live Demo
-[View Live Project on GitHub Pages](https://justinaenayio-idu.github.io/profile-card-stage0/)
+👉 [View Live Project](https://justinaenayio-idu.github.io/profile-card-stage0/)
 
+---
 
-## 🧠 How to Run Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/justinaenayio-idu/profile-card-stage0.git
+## 💻 GitHub Repository
+👉 [GitHub Repo Link](https://github.com/justinaenayio-idu/profile-card-stage0)
+
+To clone the repository locally:
+```bash
+git clone https://github.com/justinaenayio-idu/profile-card-stage0.git
+
 
 
 ## 🌟 Features
@@ -30,7 +35,15 @@ It displays a user's profile picture, bio, hobbies, dislikes, and social links, 
 
 
 ## 🧪 Testing
-See [TESTING.md](./TESTING.md) for automated and manual testing details.
+See [TESTING.md](./TESTING.md) file for detailed notes on how this project was tested for:
+
+- Functionality (dynamic time, data attributes)
+
+- Responsiveness across screen sizes
+
+- Accessibility compliance
+
+- Browser compatibility
 
 
 ## 🚀 Deployment
