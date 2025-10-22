@@ -51,6 +51,7 @@ See [TESTING.md](./TESTING.md) file for detailed notes on how this project was t
 https://your-actual-netlify-url.netlify.app
 
 
+
 ### Stage 0 Foundation
 - **Profile Card Component** (`Task0.html`)
 - Semantic HTML with data-testid attributes
